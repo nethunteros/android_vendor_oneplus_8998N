@@ -190,6 +190,40 @@ PRODUCT_COPY_FILES += vendor/oneplus/etc/firmware/rampatch_tlv_2.1.tlv:system/et
 PRODUCT_COPY_FILES += vendor/oneplus/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv
 PRODUCT_COPY_FILES += vendor/oneplus/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv
 PRODUCT_COPY_FILES += vendor/oneplus/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img
+
+# Nethunter wireless firmware
+PRODUCT_COPY_FILES += \
+	vendor/oneplus/etc/firmware/ar9170-1.fw:system/etc/firmware/ar9170-1.fw \
+	vendor/oneplus/etc/firmware/ar9170-2.fw:system/etc/firmware/ar9170-2.fw \
+	vendor/oneplus/etc/firmware/carl9170-1.fw:system/etc/firmware/carl9170-1.fw \
+	vendor/oneplus/etc/firmware/htc_7010.fw:system/etc/firmware/htc_7010.fw \
+	vendor/oneplus/etc/firmware/htc_9271.fw:system/etc/firmware/htc_9271.fw \
+	vendor/oneplus/etc/firmware/rt2561.bin:system/etc/firmware/rt2561.bin \
+	vendor/oneplus/etc/firmware/rt2860.bin:system/etc/firmware/rt2860.bin \
+	vendor/oneplus/etc/firmware/rt2870.bin:system/etc/firmware/rt2870.bin \
+	vendor/oneplus/etc/firmware/rt3070.bin:system/etc/firmware/rt3070.bin \
+	vendor/oneplus/etc/firmware/rt73.bin:system/etc/firmware/rt73.bin \
+	vendor/oneplus/etc/firmware/rtlwifi/rtl8188efw.bin:system/etc/firmware/rtlwifi/rtl8188efw.bin \
+	vendor/oneplus/etc/firmware/rtlwifi/rtl8192cufw.bin:system/etc/firmware/rtlwifi/rtl8192cufw.bin \
+	vendor/oneplus/etc/firmware/zd1211/zd1211_ub:system/etc/firmware/zd1211/zd1211_ub \
+	vendor/oneplus/etc/firmware/zd1211/zd1211_uph:system/etc/firmware/zd1211/zd1211_uph \
+	vendor/oneplus/etc/firmware/zd1211/zd1211_uphm:system/etc/firmware/zd1211/zd1211_uphm \
+	vendor/oneplus/etc/firmware/zd1211/zd1211_uphr:system/etc/firmware/zd1211/zd1211_uphr \
+	vendor/oneplus/etc/firmware/zd1211/zd1211_ur:system/etc/firmware/zd1211/zd1211_ur \
+	vendor/oneplus/etc/firmware/zd1211/zd1211b_ub:system/etc/firmware/zd1211/zd1211b_ub \
+	vendor/oneplus/etc/firmware/zd1211/zd1211b_uph:system/etc/firmware/zd1211/zd1211b_uph \
+	vendor/oneplus/etc/firmware/zd1211/zd1211b_uphm:system/etc/firmware/zd1211/zd1211b_uphm \
+	vendor/oneplus/etc/firmware/zd1211/zd1211b_uphr:system/etc/firmware/zd1211/zd1211b_uphr \
+	vendor/oneplus/etc/firmware/zd1211/zd1211b_ur:system/etc/firmware/zd1211/zd1211b_ur
+
+# Nethunter files
+PRODUCT_COPY_FILES += \
+	vendor/oneplus/xbin/busybox_nh:system/xbin/busybox_nh \
+	vendor/oneplus/xbin/hid-keyboard:system/xbin/hid-keyboard
+
+# Nethunter bootanimation
+PRODUCT_BOOTANIMATION += vendor/oneplus/bootanimation/bootanimation.zip
+
 PRODUCT_COPY_FILES += vendor/oneplus/etc/ftm_test_config:system/etc/ftm_test_config
 PRODUCT_COPY_FILES += vendor/oneplus/etc/ftm_test_config_msm8998-tasha-snd-card:system/etc/ftm_test_config_msm8998-tasha-snd-card
 PRODUCT_COPY_FILES += vendor/oneplus/etc/mmi/fail.png:system/etc/mmi/fail.png
