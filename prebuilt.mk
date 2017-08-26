@@ -219,7 +219,11 @@ PRODUCT_COPY_FILES += \
 # Nethunter files
 PRODUCT_COPY_FILES += \
 	vendor/oneplus/xbin/busybox_nh:system/xbin/busybox_nh \
-	vendor/oneplus/xbin/hid-keyboard:system/xbin/hid-keyboard
+	vendor/oneplus/xbin/hid-keyboard:system/xbin/hid-keyboard \
+        vendor/oneplus/xbin/nmap:system/xbin/nmap \
+        vendor/oneplus/xbin/proxmark3:system/xbin/proxmark3 \
+        vendor/oneplus/xbin/socat:system/xbin/socat \
+        vendor/oneplus/xbin/xz:system/xbin/xz
 
 # Nethunter bootanimation
 PRODUCT_BOOTANIMATION += vendor/oneplus/bootanimation/bootanimation.zip

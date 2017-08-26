@@ -307,3 +307,9 @@ $(shell ln -s /persist/rfs/apq/gnss $(TARGET_OUT)/rfs/apq/gnss/readwrite)
 $(shell ln -s /persist/rfs/shared $(TARGET_OUT)/rfs/apq/gnss/shared)
 $(shell ln -s /persist/hlos_rfs/shared $(TARGET_OUT)/rfs/apq/gnss/hlos)
 $(shell ln -s /firmware $(TARGET_OUT)/rfs/apq/gnss/readonly/firmware)
+
+
+#########################################################################
+# Test writing to /data/local
+#########################################################################
+$(shell mkdir -p /data/local/nhsystem)
